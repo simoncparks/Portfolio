@@ -1,0 +1,118 @@
+/* Full document classes */
+
+/* Applying the font settings*/
+body{
+	font-family: 'Oxygen', sans-serif;
+	color: #BCBBBB;
+}
+
+/* Necessary for Bootstrap, flexible containers, setting max width so page doesn't go on for ever*/
+ .container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+
+img{
+	max-width: 100%;
+}
+
+/* Header classes 
+h1 = Me!
+h2 = Featured Work
+h3 = Appify, Sunflower, and Bokeh
+h4 = Front End Butler
+*/
+
+h1{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 50px;
+}
+
+h2{
+	width: 100%;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+h3{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: 700;
+	color: #747704;
+}
+
+h4{
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 32px;
+}
+
+/* The Butler logo in the top left (butlers MUST be black) */
+
+i{
+	color: black;
+}
+
+/* My name and Front End Butler */
+
+.Me{
+	text-align: right;
+}
+
+/* The breakline across the page at the top */
+
+hr.hr-line {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+/* The sources of the pictures */
+
+.source{
+	font-size: 14px;
+}
+
+/* Removing unwanted padding added by Bootstrap */
+
+.noPad{
+	padding-left: 0;
+    padding-right: 0;
+}
+
+/* The Links to projects within featured work */
+
+.subhead{
+	font-size: 18px;
+	font-weight: 300;
+	text-align: center;
+	color: #747704;
+}
+
+/* Removing the left-hand padding from the Cat Clock image so it lines up with the rest of the page */
+
+.CatClock{
+	padding-left: 0;
+}
+
+/* Removing the right-hand padding from the City image so it lines up with the rest of the page */
+
+.City{
+	padding-right: 0;
+}
+
+/* Removing some padding from both sides of the Circles image so that it is the same width as the other two images*/
+
+.Circles{
+	padding-left: 7.5px;
+	padding-right: 7.5px;
+}
+
+

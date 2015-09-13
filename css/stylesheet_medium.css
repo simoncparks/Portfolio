@@ -1,0 +1,51 @@
+/* Applying Bootstrap-style containers to the Butler (i) and Me! heading (h1)*/
+
+i, .Me {
+	width: 50%;
+}
+
+/* Header classes 
+h1 = Me!
+h2 = Featured Work
+h3 = Appify, Sunflower, and Bokeh
+h4 = Front End Butler
+*/
+
+h1{
+	font-size: 35px;
+}
+
+h3, h2{
+	font-size: 20px;
+}
+
+h4{
+	font-size: 25px;
+}
+
+/* Featured Work container (not the text)*/
+
+.Features{
+	width: 100%;
+}
+
+/* Getting the three sub-containers within Featured Work into a line*/
+
+.CatClock, .Circles, .City{
+	width: 33.3333%;
+	float: left;
+}
+
+/* Links to projects within Featured Work*/
+
+.subhead{
+	font-size: 9px;
+	font-weight: 300;
+	text-align: center;
+}
+
+/* Links to image sources*/
+
+.source{
+	font-size: 10px;
+}

@@ -1,0 +1,55 @@
+/* Header classes 
+h1 = Me!
+h2 = Featured Work
+h3 = Appify, Sunflower, and Bokeh
+h4 = Front End Butler
+*/
+
+/* Applying Bootstrap-style containers to the Me heading and making font smaller */
+
+h1{
+	font-size: 25px;
+	text-align: right;
+}
+
+h2{
+	width: 100%;
+	font-size: 25px;
+	text-align: center;
+}
+
+h3{
+	font-size: 25px;
+}
+
+h4{
+	font-size: 16px;
+	text-align: right;
+}
+
+/* Applying Bootstrap-style containers to the Butler and Me! */
+
+i, .Me{
+	width: 50%;
+}
+
+/* Featured Work container (not the text)*/
+
+.Features{
+	width: 100%;
+}
+
+/* Used to get the three Featured Work pictures to centre on the page */
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Links to image sources*/
+
+.source{
+	text-align: center;
+}
+
